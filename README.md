@@ -6,7 +6,7 @@ Scrapes the tweets of said twitter profile, uses Markov chains to generate famil
 
 Built in python, powered by Markovify and Tweepy.
 
- by Artur Tarasenko for COMP 3211 for Spring 2017 at HKUST.
+Project for COMP 3211 (Spring 2017 HKUST) by Artur Tarasenko and Drew Brost.
 
 ## System Details
 
