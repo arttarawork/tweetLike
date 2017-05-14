@@ -4,10 +4,12 @@ A commandline tool to generate tweets like whatever twitter handle you want to i
 
 Scrapes the tweets of said twitter profile, uses Markov chains to generate familiar sounding tweet.
 
-Built in python, powered by Markovify and xxxxxx.
+Built in python, powered by Markovify and Tweepy.
 
 Written by Artur Tarasenko for COMP 3211 for Spring 2017 at HKUST.
 
 Resources used:
 
 https://github.com/jsvine/markovify
+
+https://github.com/tweepy/tweepy

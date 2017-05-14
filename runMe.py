@@ -1,6 +1,21 @@
-import markovify
+import markovify	#https://github.com/jsvine/markovify
 import sys, os
 import operator
+import tweepy		#https://github.com/tweepy/tweepy
+import csv
+
+consumer_key = ""
+consumer_secret = ""
+access_key = ""
+access_secret = ""
+
+if (!(consumer_key | consumer_secret | access_key | access_secret)):
+	print "You will be prompted for your Twitter API details, but you can change the string value for them inside the runMe.py file.\nYou can find these settings at https://dev.twitter.com/apps\n"
+
+if(!consumer_key):
+	print "Consumer Key: "
+
+
 
 with open(os.path.join(os.path.dirname(__file__), "markovify/test/texts/sherlock.txt")) as f:
     sherlock = f.read()
