@@ -14,14 +14,22 @@ This was run on Ubuntu 16.04 LTS and Python 2.7
 
 ## Installation
 
-*Make sure you have Python 2.7 installed
+* Make sure you have Python 2.7 installed
 
-*Follow the [tweepy]{https://github.com/tweepy/tweepy} installation requirements
+* Follow the [tweepy](https://github.com/tweepy/tweepy) installation requirements
 
-*Follow the [markovify]{https://github.com/jsvine/markovify} installation requirements
+* Follow the [markovify](https://github.com/jsvine/markovify) installation requirements
 
-Resources used:
+* Run 
 
-https://github.com/jsvine/markovify
+'''
+python runMe.py
+'''
 
-https://github.com/tweepy/tweepy
+Resources used
+
+[Python 2.7](https://www.python.org/downloads/)
+
+[tweepy](https://github.com/tweepy/tweepy)
+
+[markovify](https://github.com/jsvine/markovify)
