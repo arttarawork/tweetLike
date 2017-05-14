@@ -22,9 +22,9 @@ This was run on Ubuntu 16.04 LTS and Python 2.7
 
 Then just run 
 
-' ' '
+```
 python runMe.py
-' ' '
+```
 
 Resources used
 
