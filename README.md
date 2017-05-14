@@ -26,7 +26,7 @@ Then just run
 python runMe.py
 ```
 
-Resources used
+## Resources used
 
 [Python 2.7](https://www.python.org/downloads/)
 
