@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import markovify	#https://github.com/jsvine/markovify
 import sys, os
 import operator
