@@ -1,7 +1,12 @@
-# -*- coding: utf-8 -*-
+# encoding=utf8
 
 import markovify	#https://github.com/jsvine/markovify
 import sys, os
+
+reload(sys)
+
+sys.setdefaultencoding('utf8')
+
 import operator
 import tweepy		#https://github.com/tweepy/tweepy
 import csv
@@ -65,4 +70,4 @@ markov_model = markovify.Text(corpus)
 
 #Prints sentence
 
-print(markov_model.make_sentence())
+print(markov_model.make_short_sentence(140))

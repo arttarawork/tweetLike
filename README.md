@@ -12,6 +12,8 @@ Project for COMP 3211 (Spring 2017 HKUST) by Artur Tarasenko and Drew Brost.
 
 This was run on Ubuntu 16.04 LTS and Python 2.7
 
+Due to UTF-8 issues in Python on Windows, this would be better to run on UNIX-like systems.
+
 ## Installation
 
 * Make sure you have Python 2.7 installed
